@@ -852,7 +852,7 @@ assert someitem in registry
     * `priority`: An integer or float used to sort against all items.
 
     If an item is registered with a "name" which already exists, the existing item is replaced with the new item.
-    Tread carefully as the old item is lost with no way to recover it. The new item will be sorted according to its
+    Treat carefully as the old item is lost with no way to recover it. The new item will be sorted according to its
     priority and will **not** retain the position of the old item.
 
 ### `Registry.deregister(self, name, strict=True)`  {: #registry.deregister data-toc-label='Registry.deregister'}
